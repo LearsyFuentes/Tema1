@@ -1,4 +1,4 @@
-package Tarea5;
+package tarea5;
 
 import java.util.Scanner; // Importamos la clase Scanner para leer la entrada del usuario
 
