@@ -1,0 +1,9 @@
+Ejercicio 1: Explicación: El programa utiliza la clase Scanner para leer la entrada del usuario desde la consola. Se solicita al usuario que introduzca un número, que luego se almacena en la variable numero. Finalmente, el número ingresado se muestra utilizando System.out.println.
+
+Ejercicio 2: Explicación: Utiliza la clase Scanner para leer la edad del usuario desde la consola. La edad que tendrá el usuario el próximo año se calcula sumando 1 a la edad actual. Finalmente, muestra el resultado en pantalla. Este programa sigue el mismo proceso básico que el anterior, pero ahora incluye una operación aritmética simple para calcular la edad futura.
+
+Ejercicio 3: Explicación: El programa solicita al usuario que ingrese el año actual y su año de nacimiento. La edad del usuario se calcula restando el año de nacimiento del año actual. Finalmente, la edad calculada se muestra en la consola. Este programa utiliza el mismo enfoque básico que los anteriores, con la diferencia de que solicita dos entradas (el año actual y el año de nacimiento) y realiza la resta para obtener la edad.
+
+Ejercicio 4: Explicación: Se utiliza la clase Scanner para pedir dos notas enteras al usuario. Para calcular la media aritmética, se suman las dos notas y se dividen por 2.0, asegurándonos de que el cálculo se realice en punto flotante para obtener un valor decimal. Finalmente, se muestra el resultado en la consola. El uso de 2.0 (en lugar de 2) en la división garantiza que el resultado sea un número decimal si es necesario.
+
+Ejercicio 5: Explicación: El programa solicita al usuario que introduzca el radio, permitiendo que sea un valor decimal. Utiliza la fórmula 2πr para calcular la longitud de la circunferencia. Para calcular el área, usa la fórmula πr², aprovechando Math.pow(radio, 2) para calcular el cuadrado del radio. Los resultados se muestran en la consola. Este programa toma ventaja de Math.PI para obtener el valor más preciso de π.
