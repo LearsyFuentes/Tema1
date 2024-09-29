@@ -2,9 +2,13 @@ package tarea4;
 
 import java.util.Scanner; // Importamos la clase Scanner para leer la entrada del usuario
 
-public class MediaAritmetica {
+public class MediaAritmetica 
+
+{
 	
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    
+    {
         // Creamos un objeto Scanner para leer la entrada desde el teclado
         Scanner scanner = new Scanner(System.in);
 
@@ -25,6 +29,4 @@ public class MediaAritmetica {
         // Cerramos el scanner
         scanner.close();
     }
-}
-
 }
