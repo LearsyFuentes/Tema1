@@ -1,8 +1,10 @@
 package tarea5;
 
-import java.util.Scanner; // Importamos la clase Scanner para leer la entrada del usuario
+import java.util.Scanner; // Importamos la clase Scanner para leer la entrada del usuario desde el teclado.
 
-public class Circunferencia {
+public class Circunferencia 
+
+{
 
 	public static void main(String[] args)
 
