@@ -31,14 +31,8 @@ public class Entradas
         double totalSinDescuento = (numInfantiles * PRECIO_INFANTIL) + (numAdultos * PRECIO_ADULTO);
         
      // Aplicar descuento si el total es mayor o igual a 100€
-        if (totalSinDescuento >= LIMITE_DESCUENTO) 
-        {
-            totalSinDescuento -= totalSinDescuento * DESCUENTO;
-            System.out.println("Se ha aplicado un descuento del 5%.");
-        }
-        else
-        	System.out.println("No tiene derecho a descuento");
-
+        totalSinDescuento = (totalSinDescuento >= LIMITE_DESCUENTO) ? (totalSinDescuento -= totalSinDescuento * DESCUENTO) : totalSinDescuento;
+       
         // Mostrar el importe total a pagar
         System.out.printf("El importe total a pagar es: %.2f€\n", totalSinDescuento);
 
